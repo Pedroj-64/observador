@@ -30,7 +30,7 @@ public class PantallaTemperatura implements ObservadorTemperatura {
      * Muestra la información actualizada en consola (simulación)
      */
     private void mostrarInformacion() {
-        System.out.println("  📺 [" + nombrePantalla + "] -> " + 
+        System.out.println("  [" + nombrePantalla + "] -> " + 
                          temperaturaActual + "°C en " + ciudadActual);
     }
     

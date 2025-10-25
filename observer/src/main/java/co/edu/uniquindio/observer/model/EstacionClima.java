@@ -41,7 +41,7 @@ public class EstacionClima implements SujetoObservable {
     
     @Override
     public void notificarObservadores() {
-        System.out.println("📢 Notificando a " + observadores.size() + " observadores...");
+        System.out.println("Notificando a " + observadores.size() + " observadores...");
         for (ObservadorTemperatura observador : observadores) {
             observador.actualizar(temperatura, ciudad);
         }
@@ -52,7 +52,7 @@ public class EstacionClima implements SujetoObservable {
      * @param nuevaTemperatura Nueva temperatura registrada
      */
     public void establecerTemperatura(double nuevaTemperatura) {
-        System.out.println("\n🌡️ Nueva temperatura registrada: " + nuevaTemperatura + "°C en " + ciudad);
+        System.out.println("\nNueva temperatura registrada: " + nuevaTemperatura + "°C en " + ciudad);
         this.temperatura = nuevaTemperatura;
         notificarObservadores();
     }
