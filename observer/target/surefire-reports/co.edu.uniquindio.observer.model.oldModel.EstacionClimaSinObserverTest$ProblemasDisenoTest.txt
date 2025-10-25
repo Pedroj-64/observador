@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest
+co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest.cambioPantallas  Time elapsed: 0.287 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make void co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest.setUp() accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model.oldModel" to unnamed module @57a3af25
+
+co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest.dificultadExtension  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest(co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model.oldModel" to unnamed module @57a3af25
+
+co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest.altoAcoplamiento  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest$ProblemasDisenoTest(co.edu.uniquindio.observer.model.oldModel.EstacionClimaSinObserverTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model.oldModel" to unnamed module @57a3af25
+

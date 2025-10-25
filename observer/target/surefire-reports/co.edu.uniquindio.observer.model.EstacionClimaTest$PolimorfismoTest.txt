@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uniquindio.observer.model.EstacionClimaTest$PolimorfismoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! - in co.edu.uniquindio.observer.model.EstacionClimaTest$PolimorfismoTest
+co.edu.uniquindio.observer.model.EstacionClimaTest$PolimorfismoTest.diferentesTiposObservadores  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$PolimorfismoTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+

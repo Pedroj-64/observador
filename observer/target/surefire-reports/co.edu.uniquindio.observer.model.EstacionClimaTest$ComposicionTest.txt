@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.267 s <<< FAILURE! - in co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest
+co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest.notificacionMultiplesObservadores  Time elapsed: 0.046 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+
+co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest.composicionDinamica  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$ComposicionTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+

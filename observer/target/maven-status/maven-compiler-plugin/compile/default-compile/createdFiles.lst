@@ -1,3 +1,5 @@
+co\edu\uniquindio\observer\model\oldModel\PantallaTemperaturaSinObserver.class
+co\edu\uniquindio\observer\model\oldModel\EstacionClimaSinObserver.class
 co\edu\uniquindio\observer\model\SujetoObservable.class
 co\edu\uniquindio\observer\model\ObservadorTemperatura.class
 co\edu\uniquindio\observer\SecondaryController.class

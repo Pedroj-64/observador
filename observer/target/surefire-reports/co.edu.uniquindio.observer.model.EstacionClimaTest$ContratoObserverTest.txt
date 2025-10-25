@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest
+co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest.noPermiteObservadorNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+
+co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest.observadorAgregadoUnaVez  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+
+co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest.eliminarObservador  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make co.edu.uniquindio.observer.model.EstacionClimaTest$ContratoObserverTest(co.edu.uniquindio.observer.model.EstacionClimaTest) accessible: module co.edu.uniquindio.observer does not "opens co.edu.uniquindio.observer.model" to unnamed module @57a3af25
+
