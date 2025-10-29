@@ -17,13 +17,13 @@ public class ObservadorBolsa implements Observador<DatosBolsa> {
         System.out.println("  → " + id + " recibió: " + dato);
         
         if (Math.abs(dato.getCambio()) > umbralCambio) {
-            String direccion = dato.getCambio() > 0 ? "📈 ALZA" : "📉 BAJA";
+            String direccion = dato.getCambio() > 0 ? " ALZA" : " BAJA";
             System.out.println("    " + direccion + " SIGNIFICATIVA: " + 
                              String.format("%.2f%%", Math.abs(dato.getCambio())));
         }
         
         if (dato.getVolumen() > 1000000) {
-            System.out.println("    🔥 Alto volumen de transacciones");
+            System.out.println(" Alto volumen de transacciones");
         }
     }
     

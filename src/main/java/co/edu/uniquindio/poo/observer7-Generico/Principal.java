@@ -70,7 +70,7 @@ public class Principal {
             @Override
             public void actualizar(Integer dato) {
                 System.out.println("  → Contador: " + dato + 
-                                 (dato > 100 ? " ⚠️  Límite superado!" : ""));
+                                 (dato > 100 ? " Límite superado!" : ""));
             }
             
             @Override

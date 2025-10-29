@@ -17,11 +17,11 @@ public class ObservadorTemperatura implements Observador<DatosTemperatura> {
         System.out.println("  → " + id + " recibió: " + dato);
         
         if (dato.getTemperatura() > umbralAlerta) {
-            System.out.println("    ⚠️  ALERTA: Temperatura excede " + umbralAlerta + "°C");
+            System.out.println("  ALERTA: Temperatura excede " + umbralAlerta + "°C");
         }
         
         if (dato.getHumedad() > 80) {
-            System.out.println("    💧 INFO: Alta humedad detectada");
+            System.out.println(" INFO: Alta humedad detectada");
         }
     }
     
